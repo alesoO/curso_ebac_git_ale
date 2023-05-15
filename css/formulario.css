@@ -20,21 +20,21 @@ body {
   z-index: 2;
 }
 
-.formulario input[type="label"] {
+.formulario .campo_n1 {
   margin-top: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.formulario input[type="email"] {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-
-.formulario input[type="password"] {
+.formulario .campo_n2{
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.alertas{
+    display: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
