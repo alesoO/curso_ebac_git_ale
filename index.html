@@ -18,15 +18,15 @@
             <a href="/"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="views/img/jornal.png" alt="jornal" class="bi me-2" width="32" height="32">
-                <span class="fs-4">Portal de Noticias</span>
+                <span class="fs-4 text-secondary">Portal de Noticias</span>
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#Esportes" class="nav-link">Esportes</a></li>
-                <li class="nav-item"><a href="#Economia" class="nav-link">Economia</a></li>
-                <li class="nav-item"><a href="#Entretenimento" class="nav-link">Entretenimento</a></li>
-                <li class="nav-item"><a href="#Tecnologia" class="nav-link">Tecnologia</a></li>
-                <li class="nav-item"><a href="#Games" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="#Esportes" class="nav-link color_esporte">Esportes</a></li>
+                <li class="nav-item"><a href="#Economia" class="nav-link color_economia">Economia</a></li>
+                <li class="nav-item"><a href="#Entretenimento" class="nav-link color_entreterimento">Entretenimento</a></li>
+                <li class="nav-item"><a href="#Tecnologia" class="nav-link color_tecnologia">Tecnologia</a></li>
+                <li class="nav-item"><a href="#Games" class="nav-link color_games">Games</a></li>
             </ul>
         </header>
     </div>
@@ -37,7 +37,7 @@
                 <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, eius explicabo
                     tempore quo suscipit voluptatum, tempora delectus recusandae velit nemo error fugit voluptas
                     expedita ex eaque sint labore! Ad, ab.</p>
-                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue lendo...</a></p>
+                <p class="lead mb-0"><a href="#" class="fw-bold color_esporte">Continue lendo...</a></p>
             </div>
         </div>
 
@@ -46,12 +46,12 @@
                 <div
                     class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Economia</strong>
+                        <strong class="d-inline-block mb-2 color_economia">Economia</strong>
                         <h3 class="mb-0">Noticia de Economia</h3>
                         <div class="mb-1 text-body-secondary">10 Maio</div>
                         <p class="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
                             autem tenetur, animi fugit minima vel accusamus.</p>
-                        <a href="#" class="stretched-link">Continue lendo...</a>
+                        <a href="#" class="stretched-link color_economia">Continue lendo...</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="views/img/dinheiro-moedas-brasileiras-1-real.jpg" alt="Economia"
@@ -63,12 +63,12 @@
                 <div
                     class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary">Tecnologia</strong>
+                        <strong class="d-inline-block mb-2 color_tecnologia">Tecnologia</strong>
                         <h3 class="mb-0">Noticia de Tecnologia</h3>
                         <div class="mb-1 text-body-secondary">27 Abril</div>
                         <p class="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
                             autem tenetur, animi fugit minima vel accusamus.</p>
-                        <a href="#" class="stretched-link">Continue lendo...</a>
+                        <a href="#" class="color_tecnologia stretched-link">Continue lendo...</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <img src="views/img/close-up-do-ciberespaco-do-circuito-com-luzes-de-neon.jpg" alt="Tecnologia"
@@ -78,11 +78,11 @@
             </div>
         </div>
 
-        <div class="album py-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+            <h2 id="Esportes" class="color_esporte display-6">Esportes</h2>
+        </div>
+        <div class="album color_esporte-fundo py-3">
             <div class="container">
-                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
-                    <h2 id="Esportes" class="display-6">Esportes</h2>
-                </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
@@ -95,26 +95,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
-                                            mais</button>
-                                    </div>
-                                    <small class="text-body-secondary">30/04/2023</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                src="views/img/homem-negro-praticando-esportes-jogando-basquete-ao-nascer-do-sol-pulando-silhueta.jpg"
-                                alt="Esportes">
-                            <div class="card-body">
-                                <h6 class="titulo-card">Noticia de Esportes</h6>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam non
-                                    placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-success">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -133,7 +114,26 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-success">Leia
+                                            mais</button>
+                                    </div>
+                                    <small class="text-body-secondary">30/04/2023</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                src="views/img/homem-negro-praticando-esportes-jogando-basquete-ao-nascer-do-sol-pulando-silhueta.jpg"
+                                alt="Esportes">
+                            <div class="card-body">
+                                <h6 class="titulo-card">Noticia de Esportes</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam non
+                                    placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-success">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -145,11 +145,11 @@
             </div>
         </div>
 
-        <div class="album py-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+            <h2 id="Economia" class="color_economia display-6">Economia</h2>
+        </div>
+        <div class="color_economia-fundo album py-3">
             <div class="container">
-                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
-                    <h2 id="Economia" class="display-6">Economia</h2>
-                </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
@@ -161,7 +161,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-warning">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -179,7 +179,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-warning">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -197,7 +197,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-warning">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -209,11 +209,11 @@
             </div>
         </div>
 
-        <div class="album py-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+            <h2 id="Entretenimento" class="color_entreterimento display-6">Entretenimento</h2>
+        </div>
+        <div class="album color_entreterimento-fundo py-3">
             <div class="container">
-                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
-                    <h2 id="Entretenimento" class="display-6">Entretenimento</h2>
-                </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
@@ -226,7 +226,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -245,7 +245,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -264,7 +264,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -276,11 +276,11 @@
             </div>
         </div>
 
-        <div class="album py-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+            <h2 id="Tecnologia" class="color_tecnologia display-6">Tecnologia</h2>
+        </div>
+        <div class="album color_tecnologia-fundo py-3">
             <div class="container">
-                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
-                    <h2 id="Tecnologia" class="display-6">Tecnologia</h2>
-                </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
@@ -293,7 +293,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-warning">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -312,7 +312,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-warning">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -331,7 +331,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-warning">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -343,11 +343,11 @@
             </div>
         </div>
 
-        <div class="album py-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+            <h2 id="Games" class="color_games display-6">Games</h2>
+        </div>
+        <div class="album color_games-fundo py-3">
             <div class="container">
-                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
-                    <h2 id="Games" class="display-6">Games</h2>
-                </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
@@ -360,7 +360,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -379,7 +379,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -398,7 +398,7 @@
                                     placeat eveniet ducimus autem omnis illum suscipit consequuntur.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Leia
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Leia
                                             mais</button>
                                     </div>
                                     <small class="text-body-secondary">30/04/2023</small>
@@ -414,11 +414,11 @@
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#Esportes" class="nav-link px-2 text-body-secondary">Esportes</a></li>
-                <li class="nav-item"><a href="#Economia" class="nav-link px-2 text-body-secondary">Economia</a></li>
-                <li class="nav-item"><a href="#Entretenimento" class="nav-link px-2 text-body-secondary">Entretenimento</a></li>
-                <li class="nav-item"><a href="#Tecnologia" class="nav-link px-2 text-body-secondary">Tecnologia</a></li>
-                <li class="nav-item"><a href="#Games" class="nav-link px-2 text-body-secondary">Games</a></li>
+                <li class="nav-item"><a href="#Esportes" class="nav-link px-2 color_esporte">Esportes</a></li>
+                <li class="nav-item"><a href="#Economia" class="nav-link px-2 color_economia">Economia</a></li>
+                <li class="nav-item"><a href="#Entretenimento" class="nav-link px-2 color_entreterimento">Entretenimento</a></li>
+                <li class="nav-item"><a href="#Tecnologia" class="nav-link px-2 color_tecnologia">Tecnologia</a></li>
+                <li class="nav-item"><a href="#Games" class="nav-link px-2 color_games">Games</a></li>
             </ul>
             <p class="text-center text-body-secondary">© 2023 Noticia, Inc</p>
         </footer>
