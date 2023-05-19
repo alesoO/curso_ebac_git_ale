@@ -6,43 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/pagina.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="shortcut icon" href="views/img/html5.png" type="image/x-icon">
-    <title>Exercicio HTML e JS</title>
+    <link rel="shortcut icon" href="views/img/lista.png" type="image/x-icon">
+    <title>Lista Web</title>
 </head>
 
 <body class="text-center">
 
     <main class="container">
-        <div class="formulario w-100 m-auto">
-            <form id="formulario_nums">
-                <h1 class="h3 mb-3 fw-normal">Por favor Insira dois numeros</h1>
+        <div class="container d-flex justify-content-between">
+            <div class="formulario w-100">
+                <form id="formulario_lista">
+                    <h1 class="h3 mb-3 fw-normal">Lista</h1>
 
-                <div class="form-floating">
-                    <input id="campo_n1" type="number" class="form-control campo_n1" placeholder="1º Numero (A)">
-                    <label>1º Numero(A)</label>
-                </div>
-                <div class="form-floating">
-                    <input id="campo_n2" type="number" class="form-control campo_n2" placeholder="2º Numero(B)">
-                    <label>2º Numero(B)</label>
-                </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Aceitar</button>
-            </form>
-        </div>
-        <div id="alerta_certo" class="alert alert-success alertas" role="alert">
-            O Numero B é maior que o numero A
-        </div>
-        <div id="alerta_errado" class="alert alert-danger alertas" role="alert">
-            O Numero A é maior que o numero B
-        </div>
-        <div id="alerta_igual" class="alert alert-dark alertas" role="alert">
-            Os numeros são iguais
-        </div>
-        <div id="alerta_vazio" class="alert alert-danger alertas" role="alert">
-            Os campos estão vazios
+                    <div class="form-floating">
+                        <input id="campo_tarefa" type="text" class="form-control formulario_campo" placeholder="Tarefa">
+                        <label>Tarefa</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-dark" type="submit">Adicionar</button>
+                </form>
+            </div>
+
+            <div class="d-flex">
+                <ol id="lista_corpo" class="list-group list-group-numbered tabela">
+                  </ol>
+            </div>
         </div>
     </main>
+    <script src="js/jquery-3.7.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

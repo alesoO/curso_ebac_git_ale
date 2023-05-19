@@ -1,28 +1,18 @@
-const form = document.getElementById("formulario_nums");
+$(document).ready(function () {
+    $('#lista_corpo').on("click", "li", function () {
+        $(this).addClass('text-decoration-line-through');
+    })
+})
 
-
-form.addEventListener("submit", function (e) {
+$('#formulario_lista').on('submit', function (e) {
     e.preventDefault();
+    nova_lista();
+})
 
-    let A = document.getElementById("campo_n1").value;
-    let B = document.getElementById("campo_n2").value;
-    let sucesso = document.getElementById("alerta_certo");
-    sucesso.style.display = "none";
-    let erro = document.getElementById("alerta_errado");
-    erro.style.display = 'none';
-    let igual = document.getElementById("alerta_igual");
-    igual.style.display = 'none';
-    let vazio = document.getElementById("alerta_vazio");
-    vazio.style.display = 'none';
+function nova_lista() {
 
-    if (A > B) {
-        erro.style.display = 'block'
-    } else if(B > A){
-        sucesso.style.display = "block"
-    }else if (A == "" && B == ""){
-        vazio.style.display = "block"
-    }else{
-        igual.style.display = "block"
-    }
+    let campo_tarefa = $('#campo_tarefa').val();
+    let item = $('<li class="list-group-item"></li>').text(campo_tarefa);
+    $('#lista_corpo').append(item);
+}
 
-});
