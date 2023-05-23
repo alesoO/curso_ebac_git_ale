@@ -20,21 +20,24 @@ body {
   z-index: 2;
 }
 
-.formulario input[type="label"] {
+.formulario .formulario_inicial {
   margin-top: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.formulario input[type="email"] {
+  .formulario .formulario_meio {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }
 
-.formulario input[type="password"] {
+.formulario .formulario_final {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.error{
+  position: relative !important;
 }

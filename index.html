@@ -9,37 +9,47 @@
     <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" href="views/img/html5.png" type="image/x-icon">
-    <title>Exercicio HTML</title>
+    <title>Exercicio jquery plugin</title>
 </head>
 
 <body class="text-center">
 
     <main class="formulario w-100 m-auto">
-        <form>
+        <form id="formulario">
             <h1 class="h3 mb-3 fw-normal">Por favor cadastre-se</h1>
 
-            <div class="form-floating">
-                <input type="label" class="form-control" placeholder="Nome">
-                <label>Nome</label>
+            <div class="form-floating mt-4">
+                <input type="text" class="form-control formulario_inicial" id="nome" name="nome" placeholder="Nome completo">
+                <label>Nome completo</label>
             </div>
 
             <div class="form-floating">
-                <input type="email" class="form-control" placeholder="Nome@exemplo.com">
+                <input type="email" class="form-control formulario_meio" id="email" name="email" placeholder="email@exemplo.com">
                 <label>Email</label>
             </div>
             <div class="form-floating">
-                <input type="password" class="form-control" placeholder="Senha">
-                <label>Senha</label>
+                <input type="text" class="form-control formulario_meio" id="telefone" name="telefone" placeholder="telefone">
+                <label>Telefone</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control formulario_meio" id="cpf" name="cpf" placeholder="CPF">
+                <label>CPF</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control formulario_final" id="cep" name="cep" placeholder="CEP">
+                <label>CEP</label>
             </div>
 
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox"> Lembre-se de mim
-                </label>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Cadastrar</button>
+            <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Cadastrar</button>
         </form>
     </main>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
