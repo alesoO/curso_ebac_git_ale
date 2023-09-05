@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
+$fontFamily: 'Nunito Sans', sans-serif;
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,7 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: $fontFamily;
 }
 body {
 	line-height: 1;
