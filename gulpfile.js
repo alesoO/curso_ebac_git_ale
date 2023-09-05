@@ -7,8 +7,10 @@ const imagemin = require('gulp-imagemin')
 
 function compJs() {
     return gulp.src('./source/js/*.js')
+        .pipe(sourceMaps.init())
         .pipe(uglify())
         .pipe(obfuscate())
+        .pipe(sourceMaps.write('./maps'))
         .pipe(gulp.dest('./build/js'));
 }
 

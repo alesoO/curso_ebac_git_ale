@@ -1,6 +1,5 @@
 const form = document.getElementById("formulario_nums");
 
-
 form.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -17,11 +16,11 @@ form.addEventListener("submit", function (e) {
 
     if (A > B) {
         erro.style.display = 'block'
-    } else if(B > A){
+    } else if (B > A) {
         sucesso.style.display = "block"
-    }else if (A == "" && B == ""){
+    } else if (A == "" && B == "") {
         vazio.style.display = "block"
-    }else{
+    } else {
         igual.style.display = "block"
     }
 
