@@ -1,6 +1,6 @@
-@use "reset";
-@use "var";
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "var.less";
+@import "reset.less";
+@import "bootstrap.less";
 
 html,
 body {
@@ -12,7 +12,7 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: var.$background;
+  background-color: @background;
 } 
 
 .formulario {
