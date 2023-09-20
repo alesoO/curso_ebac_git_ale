@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício boas práticas de CSS</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/formulario.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="shortcut icon" href="views/img/html5.png" type="image/x-icon">
-    <title>Exercicio HTML</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
-<body class="text-center">
-
-    <main class="formulario w-100 m-auto">
-        <form>
-            <h1 class="h3 mb-3 fw-normal">Por favor cadastre-se</h1>
-
-            <div class="form-floating">
-                <input type="label" class="form-control" placeholder="Nome">
-                <label>Nome</label>
-            </div>
-
-            <div class="form-floating">
-                <input type="email" class="form-control" placeholder="Nome@exemplo.com">
-                <label>Email</label>
-            </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" placeholder="Senha">
-                <label>Senha</label>
-            </div>
-
-            <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox"> Lembre-se de mim
-                </label>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Cadastrar</button>
-        </form>
-    </main>
+<body>
+    <div class="produtos">
+        <div class="produto__container">
+            <img class="produto__imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+        </div>
+        <div class="produto__container produto__container--destaque">
+            <img class="produto__imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+        </div>
+        <div class="produto__container">
+            <img class="produto__imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+        </div>
+    </div>
 </body>
-
 </html>
